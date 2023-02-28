@@ -1,5 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import Header from './Header';
+import Game from './Game';
 
 function App() {
   const styles = {
@@ -27,6 +29,8 @@ function App() {
       <Typography variant="body1" align="center" gutterBottom>
         ¿Quién ganará la próxima carrera? ¡Haz tu predicción ahora!
       </Typography>
+      <Header />
+      <Game />
     </div>
   );
 }
